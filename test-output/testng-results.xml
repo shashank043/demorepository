@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="177" started-at="2019-01-27T19:04:11Z" finished-at="2019-01-27T19:04:11Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="day4.Mobileloginhomeloan()[pri:0, instance:test.day4@7c16905e]" name="Mobileloginhomeloan" class="test.day4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="177" started-at="2019-01-27T19:04:11Z" finished-at="2019-01-27T19:04:11Z">
+      <class name="test.day4">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:test.day4@7c16905e]" name="beforeclass" is-config="true" duration-ms="35" started-at="2019-01-27T19:04:11Z" finished-at="2019-01-27T19:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="LoginAPIhomeloan()[pri:0, instance:test.day4@7c16905e]" name="LoginAPIhomeloan" duration-ms="21" started-at="2019-01-27T19:04:11Z" finished-at="2019-01-27T19:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIhomeloan -->
+        <test-method status="PASS" signature="Mobileloginhomeloan()[pri:0, instance:test.day4@7c16905e]" name="Mobileloginhomeloan" duration-ms="8" started-at="2019-01-27T19:04:11Z" finished-at="2019-01-27T19:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobileloginhomeloan -->
+        <test-method status="FAIL" signature="webloginhomeloan(java.lang.String, java.lang.String)[pri:0, instance:test.day4@7c16905e]" name="webloginhomeloan" duration-ms="0" started-at="2019-01-27T19:04:11Z" finished-at="2019-01-27T19:04:11Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method webloginhomeloan but has not been marked @Optional or defined
+in /private/var/folders/vw/8jvtjwyn6ssg57w0cq8zr5ww0000gn/T/testng-eclipse-1830894170/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method webloginhomeloan but has not been marked @Optional or defined
+in /private/var/folders/vw/8jvtjwyn6ssg57w0cq8zr5ww0000gn/T/testng-eclipse-1830894170/testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:923)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginhomeloan -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:test.day4@7c16905e]" name="afterclass" is-config="true" duration-ms="0" started-at="2019-01-27T19:04:11Z" finished-at="2019-01-27T19:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- test.day4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
